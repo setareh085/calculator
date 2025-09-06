@@ -1,62 +1,48 @@
-# Calculator Project (Python)
+🧮 Calculator Project
+This project demonstrates different implementations of a calculator using Python.  
+It includes a text-based CLI version, an object-oriented version, a GUI version with Tkinter, and helper functions.
 
-This project demonstrates different implementations of a calculator using **Python**.  
-It includes a **text-based CLI version**, an **object-oriented version**, a **GUI version with Tkinter**, and some **helper functions**.
-
----
-
-## ✨ Features
-- **CLI Calculator (`calculator.py`)**  
-  Text-based calculator that interacts with the user through the terminal.  
-  Uses the OOP and helper modules internally.
-  
-- **OOP Calculator (`calculator_oop.py`)**  
-  Provides a `calculators` class to handle arithmetic operations using object-oriented programming.
-  
-- **GUI Calculator (`calculator_gui.py`)**  
-  Graphical calculator built with the **Tkinter** library.  
-  Supports number input, basic operations, clear function, and error handling.
-  
-- **Helper Functions (`to_check.py`)**  
-  - `get_number(prompt)` → Ensures user enters a valid integer.  
-  - `is_empty(lst)` → Checks if a list is empty.  
-
-- **Main Runner (`run.py`)**  
-  Provides a simple menu where the user can choose which calculator to run:
-  - `1` → CLI calculator  
-  - `2` → GUI calculator  
-  - `3` → OOP calculator (can be extended)  
-  - `4` → Test/Helper file  
-
----
-
-## 🚀 Installation & Usage
-1. Install **Python 3.x**.
-2. Clone or download this repository.
-3. Run the main menu:
-   ```bash
-   python run.py
-    ```
-4. The calculator window will appear and you can start using it.
-
-## 📂 Project Structure
+📂 Project Structure
 calculator/
-
-│
-
-├── calculator.py        # CLI calculator (uses OOP + helpers)
-
-├── calculator_oop.py    # OOP calculator class
-
+├── calculator.py        # CLI calculator (text-based)
+├── calculator_oop.py    # OOP calculator (class-based)
 ├── calculator_gui.py    # GUI calculator (Tkinter)
-
 ├── to_check.py          # Helper functions
-
 ├── run.py               # Main runner (menu)
-
-├── README.md            # Project description
-
+├── README.md            # Project documentation
 └── LICENSE              # License file
 
-## 📝 License
-This project is licensed under the [MIT License](LICENSE).
+⚙️ Requirements
+- Python 3.10+  
+- Tkinter (comes pre-installed with Python)
+
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+## 🚀 Run the Project
+To run the project, start the main menu:
+```
+python run.py
+
+```
+You can then choose:
+
+- 1 → CLI calculator
+
+- 2 → GUI calculator
+## 📝 Notes
+
+The CLI calculator uses helper functions (to_check.py) and the OOP module (calculator_oop.py).
+
+The GUI calculator is built with Tkinter and supports basic arithmetic operations.
+
+This repository is published on GitHub as a portfolio project to demonstrate Python programming skills.
+
+## 📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 👩‍💻 Author
+Setareh
+
+Project created for practicing Python (CLI, OOP, GUI) and modular programming.
