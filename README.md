@@ -1,11 +1,11 @@
 🧮 Calculator Project
 This project demonstrates different implementations of a calculator using Python.  
-It includes a text-based CLI version, an object-oriented version, a GUI version with Tkinter, and helper functions.
+It includes a text-based CLI version, a GUI version with Tkinter, and helper functions.
 
 📂 Project Structure
 calculator/
 ├── calculator.py        # CLI calculator (text-based)
-├── calculator_oop.py    # OOP calculator (class-based)
+├── calculator_oop.py    # (class-based)
 ├── calculator_gui.py    # GUI calculator (Tkinter)
 ├── to_check.py          # Helper functions
 ├── run.py               # Main runner (menu)
