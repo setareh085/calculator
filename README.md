@@ -40,7 +40,7 @@ The GUI calculator is built with Tkinter and supports basic arithmetic operation
 This repository is published on GitHub as a portfolio project to demonstrate Python programming skills.
 
 ## 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [MIT License](LICENSE).
 
 ## 👩‍💻 Author
 Setareh
