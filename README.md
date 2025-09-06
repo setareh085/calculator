@@ -58,7 +58,5 @@ calculator/
 
 └── LICENSE              # License file
 
-📝 License
-
-This project is licensed under the MIT License
-You are free to use, modify, and distribute it.
+## 📝 License
+This project is licensed under the [MIT License](LICENSE).
