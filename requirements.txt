@@ -1,1 +1,4 @@
+# Requirements for Calculator Project
+# Python built-in libraries are used (no external dependencies).
+# Tkinter is required, which comes pre-installed with Python.
 
