@@ -41,13 +41,21 @@ It includes a **text-based CLI version**, an **object-oriented version**, a **GU
 
 ## 📂 Project Structure
 calculator/
+
 │
+
 ├── calculator.py        # CLI calculator (uses OOP + helpers)
+
 ├── calculator_oop.py    # OOP calculator class
+
 ├── calculator_gui.py    # GUI calculator (Tkinter)
+
 ├── to_check.py          # Helper functions
+
 ├── run.py               # Main runner (menu)
+
 ├── README.md            # Project description
+
 └── LICENSE              # License file
 
 📝 License
