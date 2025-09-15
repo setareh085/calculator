@@ -4,12 +4,19 @@ It includes a text-based CLI version, a GUI version with Tkinter, and helper fun
 
 📂 Project Structure
 calculator/
+
 ├── calculator.py        # CLI calculator (text-based)
+
 ├── calculator_oop.py    # (class-based)
+
 ├── calculator_gui.py    # GUI calculator (Tkinter)
+
 ├── to_check.py          # Helper functions
+
 ├── run.py               # Main runner (menu)
+
 ├── README.md            # Project documentation
+
 └── LICENSE              # License file
 
 ⚙️ Requirements
@@ -46,3 +53,6 @@ This project is licensed under the [MIT License](LICENSE).
 Setareh
 
 Project created for practicing Python (CLI, OOP, GUI) and modular programming.
+
+## 📘 What I Learned
+In this project, I learned how to implement a calculator in different ways: a text-based CLI version, an object-oriented (OOP) version, and a graphical user interface (GUI) using Tkinter. This helped me strengthen both fundamental and advanced Python concepts.
